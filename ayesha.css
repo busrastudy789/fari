@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("ayesha.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  display:block;
+}
+a {
+  color:white;
+}
+a:hover {
+  color:rgb(199, 137, 211);
+}
+.header {
+  background-color:rgba(194, 43, 224, 0.747);
+  color:white;
+  margin-bottom:0;
+  text-align:center;
+  overflow:auto;
+  font-size:2em;
+  padding:1px 1px;
+  font-family:cursive;
+}
+.nav {
+  background-color:rgb(89, 7, 109);
+  color:white;
+  margin-top:0;
+  text-align:center;
+  font-size:1.5em;
+  font-family:cursive;
+  overflow: hidden;
+  box-shadow: 0 4px 2px -2px black;
+  border: 0;
+  padding: 7px 7px;
+}
+.nav a {
+  padding-right:3px;
+  padding-left:3px;
+}
+.message {
+  position: relative;
+  text-align:center;
+  color:white;
+  background-color:rgba(194, 43, 224, 0.747);
+  font-family:cursive;
+}
+.gift {
+  background-attachment: fixed;
+  text-align:center;
+}

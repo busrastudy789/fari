@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("front_page.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  display:block;
+}
+a {
+  color:white;
+}
+a:hover {
+  color:rgb(199, 137, 211);
+}
+.header {
+  background-color:none;
+  text-align: center;
+  overflow: auto;
+  font-family:cursive;
+  font-size:100%;
+  
+}
+.header h1 {
+    display: block;
+    font-size:5em;
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.3em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-family:cursive;
+}
+.header img{
+  width:120px;
+  height:auto;
+}
+.section{
+  float:left;
+  width:20%;
+  text-align:center;
+  overflow:auto;
+  margin-right:4em;
+  margin-top:4em;
+}
+.section a {
+  float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+    font-family:cursive;
+    margin-top:15px;
+    width:100%;
+    font-size:30px;
+}
+.section a:hover {
+  color:rgb(199, 137, 211);
+}
+.article {
+  text-align:center;
+  color:rgb(255, 255, 255);
+  font-family:cursive;
+  float:left;
+  width:47%;
+  padding:0 0px;
+  margin-top:0;
+  margin-right:4em;
+
+}
+.article p {
+  font-size:21px;
+}
+.article h1 {
+  font-size:70px;
+
+}
+.aside {
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+  font-size:21px;
+  font-family:cursive;
+  color:rgb(255, 255, 255);
+}
+@media screen and (max-width:800px) {
+  .section, .article, .aside {
+    width:100%; 
+  }
+}
+
+.nav {
+    overflow: hidden;
+    background-color: rgb(49, 51, 53);
+    box-shadow: 0 4px 2px -2px black;
+    text-align: center;
+}
+
+
+h3 {
+  color:rgb(107, 13, 145);
+}
+#p01 {color:white;
+  background-color:black;
+  font-size:150%;
+  font-family:cursive;
+  padding:10px;
+  }

@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("charlotte.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div {
+  display:block;
+}
+a {
+  color:white;
+}
+a:hover {
+  color:rgb(199, 137, 211);
+}
+.header {
+  background-color:rgb(109, 37, 177);
+  color:white;
+  margin-bottom:0;
+  text-align:center;
+  overflow:auto;
+  font-size:2em;
+  padding:1px 1px;
+  font-family:cursive;
+}
+.nav {
+  background-color:rgb(51, 18, 82);
+  color:white;
+  margin-top:0;
+  text-align:center;
+  font-size:1.5em;
+  font-family:cursive;
+  overflow: hidden;
+  box-shadow: 0 4px 2px -2px black;
+  border: 0;
+  padding: 7px 7px;
+}
+.nav a {
+  padding-right:3px;
+  padding-left:3px;
+}
+.message {
+  position: relative;
+  text-align:center;
+  color:white;
+  background-color:rgba(137, 43, 226, 0.692);
+  font-family:cursive;
+}
+.gift {
+  background-attachment: fixed;
+  text-align:center;
+}
