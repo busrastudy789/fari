@@ -23,7 +23,8 @@ This is a simple birthday surprise website made using HTML, CSS, and JavaScript.
 
 ## How to run
 
-Just open `index.html` in any browser.
+Just open `index.html` in any browser. 
+Or go to this link: https://busrastudy789.github.io/fari/
 
 ## Credits
 
